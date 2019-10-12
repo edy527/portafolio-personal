@@ -1,54 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>David Beltran</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-	<div class="contenedor">
-		<header>
-			<div class="logo">
-				<h1>David Beltrán</h1>
-				<p>Desarrollador web</p>
-			</div>
-			<form action="">
-				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
-			</form>
-			<div class="categorias" id="categorias">
-				<a href="#" class="activo">Sobre mí</a>
-				<a href="#">Proyectos</a>
-				<a href="#">Hobbies</a>	
-				<a href="#">Habilidades</a>
-			</div>
-		</header>
-
-		<section class="grid" id="grid">
-			<div class="item">
-				<div class="item-contenido">
-					<img src="img/html5.png" alt="Logo de HTML5">
+	<!DOCTYPE html>
+	<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>David Beltran</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<div class="contenedor">
+			<header>
+				<div class="logo">
+					<h1>David Beltrán</h1>
+					<p>Desarrollador web</p>
 				</div>
-			</div>
-
-			<div class="item">
-				<div class="item-contenido">
-					<img src="img/css3.png" alt="Logo de HTML5">
+				<form action="">
+					<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+				</form>
+				<div class="categorias" id="categorias">
+					<a href="#" class="activo">Sobre mí</a>
+					<a href="#">Proyectos</a>
+					<a href="#">Hobbies</a>	
+					<a href="#">Habilidades</a>
 				</div>
-			</div>
+			</header>
 
-			<div class="item">
-				<div class="item-contenido">
-					<img src="img/html5.png." alt="Logo de HTML5">
+			<section class="grid" id="grid">
+				<div class="item" 
+					 data-categoria="ciudades" 
+					 data-etiquetas="ciudades autos carros calles"
+					  data-descripcion="1.Aca se pone la descripcion de la imagen">
+					 
+
+					<div class="item-contenido">
+						<img src="img/html5.png" alt="Logo de HTML5">
+					</div>
+				</div>						
+
+				<div class="item" 
+					 data-categoria="ciudades" 
+					 data-etiquetas="ciudades autos carros calles"
+					  data-descripcion="1.Aca se pone la descripcion de la imagen">
+					 
+
+					<div class="item-contenido">
+						<img src="img/html5.png" alt="Logo de HTML5">
+					</div>
 				</div>
-			</div>
-			
-		</section>
-	</div>
-<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
-<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
-<script src="js/main.js"></script>
-</body>
-</html>
+
+				
+				
+			</section>
+		</div>
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+	</html>
