@@ -1,4 +1,4 @@
-# pagina para filtrar elementos con jquery- por que no los filtraaa???
+# pagina para filtrar elementos con jquery- todavia no filtra
  Portafolio
  
   https://edy527.github.io/portafolio-personal/. 
